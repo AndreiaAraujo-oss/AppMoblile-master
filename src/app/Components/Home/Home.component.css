@@ -1,0 +1,13 @@
+.imglogin {
+    text-align: center;
+    background: #7f9fe4;
+}
+
+.Vertical {
+    top: 3px;
+    left: 0px;
+    width: 220px;
+    height: 1080px;
+    background: #ecf0f3 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
