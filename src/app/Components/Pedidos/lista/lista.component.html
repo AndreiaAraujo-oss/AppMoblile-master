@@ -1,135 +1,64 @@
-<div>
+<!DOCTYPE html>
+<html lang="pt-br">
 
-    <div class=" ion-text-center ">
-        <h1 style="color:rgb(3, 3, 85); "> Pedido de Material Utilizado (INTERNO) </h1>
-        <br><br>
+<meta charset="utf-8">
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="uniao">
+            <figure>
+                <img src="../../../assets/união.png" position="absolute" left="50px">
+            </figure>
+        </div>
+
+    </nav><br><br>
+
+    <div class="float-m-right">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Paciente</th>
+                    <th>Data</th>
+                    <th>Editar</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nome do Paciente</td>
+                    <td>00/00/0000</td>
+
+                    <button type="button" class="btn btn-basic ">
+                      <i class='fas fa-pencil-alt'></i></button>
+
+                    <button type="button" class="btn1 btn-basic " style="position:absolute; left: 1150px;">
+                        <i class='fas fa-trash-alt'></i></button>
+
+                </tr>
+                <tr>
+                    <td>Nome do Paciente</td>
+                    <td>00/00/0000</td>
+
+                    <button type="button" class="btn btn-basic ">
+                      <i class='fas fa-pencil-alt'></i></button>
+
+                    <button type="button" class="btn1 btn-basic " style="position:absolute; left: 1150px;">
+                        <i class='fas fa-trash-alt'></i></button>
+
+
+                </tr>
+                <tr>
+                    <td>Nome do Paciente</td>
+                    <td>00/00/0000</td>
+                    <button type="button" class="btn btn-basic ">
+                      <i class='fas fa-pencil-alt'></i></button>
+
+                    <button type="button" class="btn1 btn-basic " style="position:absolute; left: 1150px;">
+                        <i class='fas fa-trash-alt'></i></button>
+
+                </tr>
+            </tbody>
+        </table>
+
+
     </div>
-    <table>
-        <thead>
-            <tr>
-
-                <th>
-                    <p>Data do Pedido:
-                        <button type="button " class="button-small" [routerLink]="[ '/atualizar'] " center> Editar</button>
-                        <button type="button " class="button-small" [routerLink]="[ '/deleta'] "> Apagar</button>
-                    </p>
-
-                    <p>Hospital:
-                        <button type="button " class="button-small" [routerLink]="[ '/atualizar'] "> Editar</button>
-                        <button type="button " class="button-small" [routerLink]="[ '/deleta'] "> Apagar</button>
-                    </p>
-                    <p>Paciente:
-                        <button type="button " class="button-small" [routerLink]="[ '/atualizar'] "> Editar</button>
-                        <button type="button " class="button-small" [routerLink]="[ '/deleta'] "> Apagar</button>
-                    </p>
-                    <p>Tipo de Convênio:
-                        <button type="button " class="button-small" [routerLink]="[ '/atualizar'] "> Editar</button>
-                        <button type="button " class="button-small" [routerLink]="[ '/deleta'] "> Apagar</button>
-                    </p>
-                    <p>Nome do Convênio:
-                        <button type="button " class="button-small" [routerLink]="[ '/atualizar'] "> Editar</button>
-                        <button type="button " class="button-small" [routerLink]="[ '/deleta'] "> Apagar</button>
-                    </p>
-                    <p>Prontuário:
-                        <button type="button " class="button-small" [routerLink]="[ '/atualizar'] "> Editar</button>
-                        <button type="button " class="button-small" [routerLink]="[ '/deleta'] "> Apagar</button>
-                    </p>
-                    <p>Médico:
-                        <button type="button " class="button-small" [routerLink]="[ '/atualizar'] "> Editar</button>
-                        <button type="button " class="button-small" [routerLink]="[ '/deleta'] "> Apagar</button>
-                    </p>
-                    <p>Data da Cirurgia:
-                        <button type="button " class="button-small" [routerLink]="[ '/atualizar'] "> Editar</button>
-                        <button type="button " class="button-small" [routerLink]="[ '/deleta'] "> Apagar</button>
-                    </p>
-            </tr>
-        </thead>
-        <tbody>
-        </tbody>
-    </table><br>
-
-    <button type="button " class="btn btn-light ml-10 btn-sm text-align: right " routerLink=" "> Voltar </button>
-
-
-    <!-- <*ngFor="let data of dataResult; index as i ">
-       <tr>
-        <td>{{data.cd_pedido }}</td>
-        <td>{{data.dt_pedido }}</td>
-        <td>{{data.hospital }}</td>
-        <td>{{data.nm_paciente }}</td>
-        <td>{{data.tp_convenio }}</td>
-        <td>{{data.prontuario   }}</td>
-        <td>{{data.medico }}</td>
-        <td>{{data.dt_cirurgia}}</td>
-        <td>{{data.usuario }}</td>
-       </tr> -->
-    <!-- </tbody>
-    <thead>
-      <tr>
-        <th>Unidade</th>
-        <th>Quantidade</th>
-        <th>DescriÃ§Ã£o</th>
-      </tr>
-    </thead> -->
-    <!-- <tbody>
-      <tr *ngFor="let data of dataResult; index as i ">
-        <td>{{data.cd_itpedido }}</td>
-        <td>{{data.qtde }}</td>
-        <td>{{data.qtde }}</td>
-      </tr>
-    </tbody> -->
-
-    <!-- <button type="button " class="btn btn-primary ml-10 btn-sm text-align: right " routerLink="/crud/create "> Criar Pedidos </button>
-    <button type="button " class="btn btn-warning ml-10 btn-sm text-align: right " routerLink="/crud/atualizar-pedido/:id "> Editar </button>
-    <button type="button " class="btn btn-info ml-10 btn-sm text-align: right " routerLink="./crud/apagar "> Apagar </button>
-    <button type="button " class="btn btn-light ml-10 btn-sm text-align: right " routerLink=" "> Voltar </button>
-    <button type="button " routerLink="/crud/create/ ">Criar Pedidos</button> -->
-    <!-- <button type="button " [routerLink]="[ '/crud/update/', data.pedido.cd_pedido] "> Editar</button> -->
-    <!-- <button type="button " [routerLink]="[ 'crud', data.pedido.id, 'update'] ">Editar</button> -->
-    <!-- <button type="button " (click)="crudService.delete(data.pedido.cd_pedido) ">Deletar</button> -->
-
-    <!-- </tbody> -->
-    <!-- </table>
-</div> -->
-
-
-    <!-- <*ngFor="let data of dataResult; index as i ">
-       <tr>
-        <td>{{data.cd_pedido }}</td>
-        <td>{{data.dt_pedido }}</td>
-        <td>{{data.hospital }}</td>
-        <td>{{data.nm_paciente }}</td>
-        <td>{{data.tp_convenio }}</td>
-        <td>{{data.prontuario   }}</td>
-        <td>{{data.medico }}</td>
-        <td>{{data.dt_cirurgia}}</td>
-        <td>{{data.usuario }}</td>
-       </tr> -->
-    <!-- </tbody>
-    <thead>
-      <tr>
-        <th>Unidade</th>
-        <th>Quantidade</th>
-        <th>Descrição</th>
-      </tr>
-    </thead> -->
-    <!-- <tbody>
-      <tr *ngFor="let data of dataResult; index as i ">
-        <td>{{data.cd_itpedido }}</td>
-        <td>{{data.qtde }}</td>
-        <td>{{data.qtde }}</td>
-      </tr>
-    </tbody> -->
-
-    <!-- <button type="button " class="btn btn-primary ml-10 btn-sm text-align: right " routerLink="/crud/create "> Criar Pedidos </button>
-    <button type="button " class="btn btn-warning ml-10 btn-sm text-align: right " routerLink="/crud/atualizar-pedido/:id "> Editar </button>
-    <button type="button " class="btn btn-info ml-10 btn-sm text-align: right " routerLink="./crud/apagar "> Apagar </button>
-    <button type="button " class="btn btn-light ml-10 btn-sm text-align: right " routerLink=" "> Voltar </button>
-    <button type="button " routerLink="/crud/create/ ">Criar Pedidos</button> -->
-    <!-- <button type="button " [routerLink]="[ '/crud/update/', data.pedido.cd_pedido] "> Editar</button> -->
-    <!-- <button type="button " [routerLink]="[ 'crud', data.pedido.id, 'update'] ">Editar</button> -->
-    <!-- <button type="button " (click)="crudService.delete(data.pedido.cd_pedido) ">Deletar</button> -->
-
-    <!-- </tbody> -->
-    <!-- </table>
-</div> -->

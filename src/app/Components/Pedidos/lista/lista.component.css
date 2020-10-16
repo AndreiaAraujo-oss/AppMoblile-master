@@ -1,3 +1,9 @@
+.navbar {
+    background-color: #4075BB;
+    width: 1365px;
+    height: 50px
+}
+
 .ion-text-center {
     text-align: center;
     background: #c5cfe6;
@@ -5,16 +11,31 @@
     font-weight: 700;
 }
 
-.button-small {
-    text-align: center;
-    background-color: #cfe5ec;
-    /* Green */
-    border: rgb(4, 4, 119);
-    color: blue;
-    padding: 5px 0px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 13px;
-    margin: 1px 3px;
+.uniao {
+    position: absolute;
+    width: 462px;
+    height: 70px;
+    left: 90px;
+    top: 10px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+.btn {
+    border-radius: 6px;
+    position: absolute;
+    color: white;
+    background-color: #98D572;
+    width: 62px;
+    height: 30px;
+}
+
+.btn1 {
+    background-color: #E86464;
+    border-radius: 6px;
+    position: absolute;
+    color: white;
+    width: 62px;
+    height: 30px;
+    border-color: transparent;
 }

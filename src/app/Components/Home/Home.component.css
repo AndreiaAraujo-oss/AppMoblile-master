@@ -1,19 +1,127 @@
-.imglogin {
-    text-align: center;
-    background: #7f9fe4;
-}
-
-.Vertical {
-    top: 3px;
-    left: 0px;
-    width: 220px;
-    height: 1080px;
-    background: #ecf0f3 0% 0% no-repeat padding-box;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+.header {
+    top: 10;
+    left: 10px;
+    width: 1350px;
+    height: 100px;
+    background: #a5bad4 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
-.button type {
-    text-align: center;
-    background: #c03557;
-    color: #c03557;
+.uniao {
+    position: absolute;
+    width: 462px;
+    height: 80px;
+    float: left;
+    top: 20px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+.user {
+    width: 400px;
+    height: 361px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 80px;
+}
+
+.imagem {
+    background-image: image();
+    width: 69%;
+    height: 40px;
+    float: left;
+    margin-top: 0px;
+    margin-right: 0px;
+    position: absolute;
+    right: 370px;
+}
+
+.logo {
+    position: absolute;
+    width: 462px;
+    height: 70px;
+    left: 90px;
+    top: 10px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+.h1 {
+    position: absolute;
+    /* height: 10%;
+    top: 0%;*/
+    color: rgb(33, 150, 38);
+}
+
+.btn-second {
+    height: 45px;
+    width: 10%;
+    background-color: #4075BB;
+    border: 16px;
+    transition: background-color 2s;
+    color: white;
+}
+
+.horizontalIn {
+    padding: 150px;
+    /*border: 0px solid #f1f1f1;*/
+    background-color: buttonhighlight;
+}
+
+div.absolute1a {
+    position: absolute;
+}
+
+.circle {
+    /*pode descer o objto ou subir de acordo como os valores*/
+    background-color: #4075BB;
+    border-radius: 50%;
+    /*serve para  arrendondar os cantos*/
+    top: 828px;
+    left: 515px;
+    width: 100px;
+    height: 100px;
+    /*arredar para direita ou esquerda*/
+}
+
+.circle2 {
+    top: 10px;
+    /*pode descer o objto ou subir de acordo como os valores*/
+    background-color: #4075BB;
+    border-radius: 50%;
+    /*serve para  arrendondar os cantos*/
+    top: 833px;
+    left: 814px;
+    width: 100px;
+    height: 100px;
+    right: 15px;
+    ;
+}
+
+.circle img {
+    align-items: center;
+    position: absolute;
+}
+
+div.absolute2a {
+    position: absolute;
+}
+
+.btn-primary {
+    width: 247px;
+    height: 49px;
+    top: 40px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 14px;
+    font-size: 14px;
+    background-color: #4075BB;
+    position: absolute;
+}
+
+.container {
+    background-image: url('img/banner-xs.jpg');
+    background-size: cover;
+    height: 100vh;
 }
