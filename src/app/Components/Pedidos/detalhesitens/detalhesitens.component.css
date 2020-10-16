@@ -1,0 +1,38 @@
+.input[type=text] {
+    width: 40%;
+    padding: 10px 20px;
+    margin: 10px 50px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.9s;
+    transition: 0.5s;
+    outline: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: white;
+}
+
+.header {
+    top: 0px;
+    left: 1000px;
+    right: 1000px;
+    width: 200px;
+    height: 70px;
+    background: #4075BB 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+}
+
+.procura {
+    width: 40%;
+    top: 20px;
+    padding: 30px 20px;
+    margin: 80px 50px;
+    border: 3px solid #ccc;
+}
