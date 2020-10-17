@@ -39,3 +39,25 @@
     height: 30px;
     border-color: transparent;
 }
+
+.circle img {
+    align-items: center;
+    position: absolute;
+}
+
+.circle {
+    position: absolute;
+    /*pode descer o objto ou subir de acordo como os valores*/
+    background-color: #4075BB;
+    border-radius: 50%;
+    /*serve para  arrendondar os cantos*/
+    width: 3vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-right: 80px;
+    color: white;
+    left: 1170px;
+}
