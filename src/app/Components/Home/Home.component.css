@@ -45,7 +45,7 @@
     position: absolute;
     width: 462px;
     height: 70px;
-    left: 230px;
+    left: 270px;
     top: 10px;
     margin-top: 0px;
     margin-right: 0px;
@@ -92,7 +92,7 @@ div.absolute1a {
     align-items: center;
     justify-content: space-around;
     margin-top: 15px;
-    margin-right: 80px;
+    margin-right: 10px;
 }
 
 .circle img {
@@ -107,8 +107,8 @@ div.absolute1a {
 }
 
 .texto {
-    line-height: 10px;
-    left: 20px;
+    line-height: 5px;
+    left: 10px;
 }
 
 div.absolute2a {
