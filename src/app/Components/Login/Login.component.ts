@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
+  public entity: any = {};
+  id: any;
+
   constructor() { }
 
   ngOnInit() {
   }
+
 
 }

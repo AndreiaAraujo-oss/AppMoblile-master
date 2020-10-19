@@ -24,7 +24,7 @@ const routes: Routes = [
     { path: 'detalhesitens', component: DetalhesitensComponent },
     { path: 'lista', component: ListaComponent },
     { path: 'senha', component: SenhaComponent },
-    {path: 'atualizar', component: AtualizarComponent},
+    { path: 'atualizar', component: AtualizarComponent},
     { path: '', redirectTo: 'login', pathMatch: 'full'},
 
   ],

@@ -4,6 +4,8 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { HttpClientModule } from '@angular/common/http';
+
 import { HomeComponent } from './Components/Home/Home.component';
 import { LoginComponent } from './Components/Login/Login.component';
 import { AtualizarComponent } from './Components/Pedidos/atualizar/atualizar.component';
@@ -23,7 +25,9 @@ import { ListaComponent } from './Components/Pedidos/lista/lista.component';
     DeletaComponent,
     DetalhesitensComponent,
     ListaComponent,
-    SenhaComponent
+    SenhaComponent,
+    HttpClientModule
+
 
   ],
   imports: [
